@@ -26,9 +26,7 @@ import {
   tailwind,
   nodejs,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  
   threejs,
 } from "../assets";
 
