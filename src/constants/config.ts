@@ -40,13 +40,16 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Sathish — Portfolio",
+    fullName: "Sathish Venkatesan",
+    email: "Sathiz2k02@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Sathish",
+    p: [
+      "I'm a Front-end Developer focused on building clean and responsive web applications.",
+      "I work mainly with React, JavaScript, HTML, and CSS to create simple and user-friendly interfaces."
+    ],
   },
   contact: {
     p: "Get in touch",
@@ -67,15 +70,16 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a front-end developer with a strong foundation in HTML, CSS, JavaScript, and React. 
+I completed my degree at Periyar Maniammai Institute of Science and Technology and worked as a front-end developer intern at Imaggar Technologies in Thanjavur, where I built real-world UI components and pages. 
+One of my key projects is “Musicity”, a Spotify-style music website with features like play/pause, favorite tracks, and multi-language song search. 
+I enjoy creating responsive, user-friendly interfaces and I'm always learning new tools and best practices to improve my work.`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
+      content: `I worked as a Front-end Developer intern at Imaggar Technologies in Thanjavur for 6 months. 
+During this time, I used React, JavaScript, HTML, CSS, and basic REST APIs to build and maintain web pages, fix UI bugs, and improve user experience across different screen sizes.`,
     },
     feedbacks: {
       p: "What others say",
@@ -84,11 +88,10 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `These projects show my skills and experience through real examples of my work. 
+They include personal and internship projects such as “Musicity” (a Spotify-like music web app) and other React-based UIs. 
+Each project is briefly described with links to code repositories and, where available, live demos. 
+They reflect my ability to work with modern front-end technologies, build responsive layouts, and continuously improve the user experience.`,
     },
   },
 };

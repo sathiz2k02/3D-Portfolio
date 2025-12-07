@@ -7,6 +7,12 @@ import type {
   TProject,
 } from "../types";
 
+import imaggarLogo from "../assets/imaggar_logo.png";
+import thinklogo from "../assets/think_logo.png";
+import ecommerce from "../assets/e-commerce.jpeg";
+import portfolio from "../assets/3d.jpeg";
+import musicity from "../assets/Musicity.jpeg";
+
 import {
   mobile,
   backend,
@@ -17,22 +23,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
+
 
 export const navLinks: TNavLink[] = [
   {
@@ -51,20 +51,20 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Front-end Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "UI Developer",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "JavaScript Enthusiast",
+    icon: backend,
   },
 ];
 
@@ -82,28 +82,12 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -114,66 +98,41 @@ const technologies: TTechnology[] = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "TypeScript (Learning)",
+    icon: typescript,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Node JS (Basics)",
+    icon: nodejs,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Front-end Developer Intern",
+    companyName: "Imaggar Technologies",
+    icon: imaggarLogo,
+    iconBg: "#ffffffff",
+    date: "6-month Internship",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained responsive web pages using HTML, CSS, JavaScript, and React.",
+      "Collaborated with the team to convert UI/UX designs into functional web interfaces.",
+      "Fixed UI bugs and improved user experience across different screen sizes.",
+      "Learned industry standards, Git workflow, and worked in an agile environment.",
     ],
   },
+  
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Self-taught Front-end Developer",
+    companyName: "Personal Projects",
+    icon: thinklogo,
+    iconBg: "#fff700ff",
+    date: "Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created personal projects like Musicity, a Spotify-style music web app.",
+      "Practiced building reusable components and clean UI layouts.",
+      "Explored 3D experiences on the web using React Three Fiber and Three.js.",
+      "Continuously learning new tools, libraries, and front-end best practices.",
     ],
   },
 ];
@@ -181,94 +140,63 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sathish quickly understood our requirements and delivered clean, responsive UI screens on time.",
+    name: "Abimani",
+    designation: "Team Lead",
+    company: "Imaggar Technologies",
+    image: "https://randomuser.me/api/portraits/men/11.jp ",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He is eager to learn, takes feedback positively, and always tries to improve the user experience.",
+    name: "Dinesh",
+    designation: "Senior Developer",
+    company: "Imaggar Technologies, Thanjavur",
+    image: "https://randomuser.me/api/portraits/men/12.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Musicity - Music Web App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Spotify-style music website that allows users to play/pause songs, choose their favourite tracks, and search songs across multiple languages with a clean and modern UI.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: musicity, // replace with your real screenshot
+    sourceCodeLink: "https://github.com/sathiz2k02/musicity",
   },
+
   {
-    name: "Job IT",
+    name: "E-commerce UI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive e-commerce web interface where users can browse products, view details, and manage their cart. Built with modern UI practices and clean component architecture.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "responsive", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: ecommerce, // replace with your real screenshot
+    sourceCodeLink: "https://github.com/sathiz2k02/ecommerce-ui",
   },
+
   {
-    name: "Trip Guide",
+    name: "3D Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An interactive 3D developer portfolio built using React Three Fiber and Three.js, showcasing skills, experience, and projects with smooth animations and visually engaging UI.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "threejs", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: portfolio, // replace with your real screenshot
+    sourceCodeLink: "https://github.com/sathiz2k02/3d-portfolio",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
